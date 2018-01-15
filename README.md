@@ -1,27 +1,23 @@
-[![Build Status](https://travis-ci.org/opsview/Opspack-Template.svg?branch=master)](https://travis-ci.org/opsview/Opspack-Template)
+[![Build Status](https://travis-ci.org/opsview/network-services-nntp.svg?branch=master)](https://travis-ci.org/opsview/network-services-nntp)
 
-# Opspack Template
+# Network Services - NNTP
 
-DESCRIPTION OF THE TECHNOLOGY MONITORED
+The Network News Transfer Protocol (NNTP) is an application protocol used for transporting Usenet news articles (netnews) between news servers and for reading and posting articles by end user client applications.
 
 ## Service Checks
 
 | Service Check | Description |
 |:------------- |:----------- |
-| SERVICE CHECK NAME | DESCRIPTION OF SERVICE CHECK |
+| NNTP | Checks if the port is open and working |
 
 ## Setup and Configuration
 
-ANY SPECIAL CONFIGURATION STEPS E.G. ENABLING API OR INSTALLING REQUIRED LIBRARIES
-
-To configure and utilize this Opspack, you simply need to add the 'OPSPACK NAME' Opspack to your Opsview Monitor system.
+To configure and utilize this Opspack, you simply need to add the 'Network Services - NNTP' Opspack to your Opsview Monitor system.
 
 Step 1: Add the host template
 
-Step 2: Add and configure variables required for this host
+![Add Opspack to host](/docs/img/add_nntp_host.png?raw=true)
 
-Step 3: Reload and the system will now be monitored
+Step 2: Reload and the system will now be monitored
 
-## Additional Options
-
-LIST ANY FURTHER OPTIONS A USER MAY CONFIGURE FOR THE OPSPACK/PLUGIN
+![View host service checks](/docs/img/view_nntp_service_checks.png?raw=true)
